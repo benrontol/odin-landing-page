@@ -1,16 +1,52 @@
-body{
+/* CSS RESET */
+* {
   margin: 0;
-  display: flex;
-  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.body {
-  padding: 0 50px;;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.header {
-  color: white;
-  background: #1f2937;
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+
+.hero {
+  height: 50vh;
+  background-color: #1f2937;
+}
+
+nav {
+}
+
+nav > div {
+  padding: 1rem 0 1rem;
+  align-items: center;
+}
+
+.right-nav {
+  margin-left: auto;
+}
+
+.nav-links{
+  padding-left: 1rem;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.mx-auto {
+  margin: 0 auto 0;
+}
+
+.d-flex {
   display: flex;
-  justify-content: space-between;
 }
